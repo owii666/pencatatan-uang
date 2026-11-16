@@ -1,0 +1,37 @@
+# ===== Rahasia & Kredensial (jangan pernah diunggah) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+service-account*.json
+**/secrets/
+
+# ===== Dependency & Build (defensif; proyek saat ini statis tanpa build) =====
+node_modules/
+dist/
+build/
+out/
+.vercel/
+
+# ===== Log & Cache =====
+*.log
+npm-debug.log*
+yarn-error.log*
+.cache/
+.tmp/
+*.tmp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
